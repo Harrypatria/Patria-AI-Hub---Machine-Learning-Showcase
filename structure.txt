@@ -1,0 +1,27 @@
+patria_ai_hub/
+├── app.py                      # Main Streamlit application
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+├── assets/
+│   ├── css/
+│   │   └── style.css           # Custom CSS styles
+│   └── img/
+│       ├── logo.png            # Patria AI Hub logo
+│       └── favicon.ico         # Favicon
+├── components/
+│   ├── __init__.py
+│   ├── header.py               # Header component
+│   ├── footer.py               # Footer component
+│   └── sidebar.py              # Sidebar component 
+├── pages/
+│   ├── __init__.py
+│   ├── home.py                 # Home page
+│   ├── regression.py           # Regression use cases
+│   ├── classification.py       # Classification use cases
+│   └── clustering.py           # Clustering use cases
+└── utils/
+    ├── __init__.py
+    ├── data_loader.py          # Functions for loading UCI datasets
+    ├── preprocessing.py        # Data preprocessing utilities
+    ├── models.py               # ML model utilities
+    └── visualization.py        # Data visualization utilities
